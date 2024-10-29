@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
+.logo img {
+  margin-top: 20px;
+  width: 400px;
+  max-width: 80%;
+  object-fit: scale-down;
+}
+.search {
+  background-color: #e0e0e0;
+  margin: 20px auto;
+  padding: 20px;
+  width: 600px;
+  max-width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search p {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.search input {
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #888;
+  margin-bottom: 10px;
+}
+
+.search button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #888;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #e0e0e0;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a9e4e6;
+  padding: 15px;
+  margin-top: 15px;
+  width: 600px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+
+.spe-search {
+  background-color: #a9e4e6;
+  text-align: left;
+  flex: 1;
+
+}
+
+.spe-search p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.spe-search a {
+  text-decoration: none;
+  color: #1a0dab;
+  display: block;
+  margin: 5px 0;
+}
+
+.spe-search a:hover {
+  text-decoration: underline;
+}
+
+.oth-link {
+  background-color: #a9e4e6;
+  text-align: center;
+  align-self: center;
+  flex: 1;
+}
+
+.oth-link a {
+  text-decoration: none;
+  color: #1a0dab;
+  display: block;
+  margin: 5px 0;
+}
+
+.oth-link a:hover {
+  text-decoration: underline;
+}
+
+.update {
+  background-color: #a9e4e6;
+  text-align: right;
+  flex: 1;
+}
+
+.update input {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #888;
+  margin-right: 5px;
+}
+
+.update button {
+  padding: 8px 15px;
+  border: 1px solid #888;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.update button:hover {
+  background-color: #e0e0e0;
+}
+
+.update a {
+  text-decoration: none;
+  color: #1a0dab;
+  margin-left: 10px;
+}
+
+.update a:hover {
+  text-decoration: underline;
+}
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color:black;
+}
